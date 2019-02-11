@@ -13,7 +13,7 @@ public class SQLConnection {
     private static Connection ourInstance;
     private static String url = "jdbc:mysql://localhost/AnunturiImobiliareV2.0";
     private static String username = "tudorindan";
-    private static String password = "123Dan3211@";
+    private static String password = "----------";
 
     public static Connection getConnection() {
 
