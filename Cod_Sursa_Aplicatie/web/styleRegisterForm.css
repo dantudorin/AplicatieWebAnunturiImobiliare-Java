@@ -1,0 +1,85 @@
+body{
+    background-image: linear-gradient(to right,#ff5722,#ff9800);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.message{
+
+    width: 400px;
+    height: 100px;
+    top: 30%;
+    left: 15%;
+    position: absolute;
+
+}
+
+.registerFoarm{
+
+    width: 500px;
+    height: 350px;
+    top: 30%;
+    left: 40%;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    background: #f8f8f8;
+    position: absolute;
+    padding-left: 20px;
+
+}
+
+.registerFoarm h1{
+    text-align: center;
+}
+
+.registerFoarm input[type = "text"],input[type = "password"]{
+
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ff5722;
+    position: relative;
+    left: calc(50% - 95px);
+
+}
+
+.registerFoarm input[type = "submit"]{
+
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 70%;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 30px;
+    position: relative;
+    left: calc(50% - 190px);
+
+
+}
+
+.registerFoarm input[type = "submit"]:hover{
+
+    background: transparent;
+    color: #fb0b00;
+    border: 2px solid #fb0b00;
+
+}
+.message img{
+
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+
+    animation: mover 1s infinite alternate;
+
+}
+
+@keyframes mover {
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-20px);}
+}
